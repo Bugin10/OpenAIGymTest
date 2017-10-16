@@ -223,7 +223,7 @@ for gen in range(MAX_GENERATIONS):
 
     bestNeuralNets.append(maxNeuralNet)
     genAvgFit /= pop.popCount
-    print("Generation : %3d  |  Min : %5.0f  |  Avg : %5.0f  |  Max : %5♠.0f  " % (gen + 1, minFit, genAvgFit, maxFit))
+    print("Generation : %3d  |  Min : %5.0f  |  Avg : %5.0f  |  Max : %5.0f  " % (gen + 1, minFit, genAvgFit, maxFit))
     pop.createNewGeneration(maxNeuralNet)
 
 recordBestBots(bestNeuralNets)

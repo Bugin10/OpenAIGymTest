@@ -12,10 +12,10 @@ import matplotlib.pyplot as plt
 np.set_printoptions(threshold=np.nan)
 
 EPISODES = 1000000
-POPULATION_SIZE = 50
-MUTATION_RATE = 0.25
+POPULATION_SIZE = 100
+MUTATION_RATE = 0.5
 MUTATION_SIZE = 0.5
-POPULATION_WINNERS = 0.2
+POPULATION_WINNERS = 0.1
 
 class DQNAgent:
     def __init__(self, _state_size, _action_size):
